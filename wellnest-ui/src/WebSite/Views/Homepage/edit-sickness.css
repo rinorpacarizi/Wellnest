@@ -1,0 +1,86 @@
+.MuiDialog-paperWidthSm{
+    width: 1000px;
+}
+#dialogd1{
+    width: 600px;
+}
+
+.edit-div{
+    font-size: medium;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+
+
+.la-div{
+    padding: 10px;
+    background-color: white;
+    border: 1px lightblue solid;
+    cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-top: 0px;
+    margin: auto;
+    justify-content: space-between;
+  }
+.label1{
+    display: flex;
+    position: relative;
+    top: -28px;
+}
+.name{
+    margin: -30px 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 200px;
+    text-align: center;
+    height: 30px;
+    border: 1px lightblue solid;
+}
+.information{
+    padding: 2%;
+    margin: 0 10px 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 150px;
+    border: 1px lightblue solid;
+}
+.imgg-div{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+#ph-1{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.bu-div{
+    position: relative;
+    top: 15px;
+    left: 210px;
+    border: 1px lightblue solid;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.bu-div:hover,.la-div:hover{
+    background-color: rgba(147, 181, 209, 0.555);
+}
+.x-b{
+    color: rgba(0, 0, 0, 0.425);
+    font-size: 25px;
+    cursor: pointer;
+}
+.x-b:hover{
+    color: black;
+}

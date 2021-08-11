@@ -1,0 +1,75 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 3%;
+ 
+}
+
+.container .centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+}
+
+.input-fields {
+  width: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+}
+
+.container input,
+select {
+  margin-top: 20px;
+  width: 70%;
+  border: 1px solid #888;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+
+.container input:hover,
+select:hover {
+  border: 1px solid #333;
+}
+.pannel {
+  background-color: #f7f7f785;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #3d7fc3a1 ;
+  color: black;
+  margin: 2rem 1rem;
+  /* margin-left: -2%; */
+  width: 220px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #3688da;
+}
+
+.login-input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.login-input-fields input {
+  max-width: 400px;
+  padding: 7px 10px;
+}
+.roles{
+  color: rgb(54, 54, 54);
+}

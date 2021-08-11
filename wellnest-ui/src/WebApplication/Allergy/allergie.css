@@ -1,0 +1,102 @@
+#label-modal-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+}
+#buttons-modal-allergy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 750px;
+    top: -10px;
+    justify-content: center;
+
+}
+#add-button-dia{
+    position: relative;
+    bottom: 40px;
+}
+#edit-button-dia{
+    position: relative;
+    bottom: 20px;
+
+}
+
+#main-div-form-allergy{
+    height: 600px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 650px;
+}
+#label-modal-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+.allergy-title{
+    text-align: center  ;
+}
+#buttons-modal-allergy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    left: 750px;
+    top: -55px;
+    justify-content: center;
+
+}
+.modals-allergy{
+    height: 500px;
+    left: 315px;
+    top: 120px;   
+}
+.input-add-allergy{
+    border: none;
+    border-bottom:1px solid grey;
+    height: 30px;
+}
+.add-allergy-buttons{
+    display: flex;
+    justify-content: center;
+}
+#add-allergies{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+#edit-allergies{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 350px;
+    left: 150px;
+    justify-content: space-evenly;   
+}
+.delete-modal-a{
+    position: relative;
+    top: 200px;
+    width: 600px !important;
+    left: 450px;
+    height: 250px;
+}
+#delete-allergy-elements{
+    position: relative;
+    left:170px;
+}
